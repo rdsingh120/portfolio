@@ -1,0 +1,39 @@
+.side-link {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  color: #8b8a91;
+  text-decoration: none;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  transition: 0.5s;
+}
+
+.side-link:hover {
+  transform: translate(0, -5px);
+}
+
+.resume {
+  color: white;
+}
+
+.linkedin {
+  color: #06689d;
+}
+
+.github {
+  color: #2a9d8f;
+}
+
+.leetcode {
+  color: #ffb751;
+}
+
+.instagram {
+  color: #b5179e;
+}
+
+.stack {
+  color: #d87105;
+}

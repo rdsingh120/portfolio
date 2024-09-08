@@ -1,0 +1,44 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1fb81f;
+  padding: 1rem;
+  background-color: #14131a;
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+}
+
+.contactMe {
+  background-color: #52ea5292;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ham-btn {
+  background-color: #14131a;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  display: none;
+}
