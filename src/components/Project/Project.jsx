@@ -1,21 +1,16 @@
 import './Project.css'
-const Project = () => {
+const Project = ({ img, name, desc, link }) => {
   return (
-    <div className="project">
+    <a href={link} target='_blank' className="project">
       <div className="img">
-        <img
-          src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg"
-          alt=""
-        />
+        <img src={img} alt="" />
       </div>
       <div className="details">
-        <span className="project-name">Project</span>
+        <span className="project-name">{name}</span>
         <br />
-        <span className="project-stack">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </span>
+        <span className="project-stack">{desc}</span>
       </div>
-    </div>
+    </a>
   )
 }
 export default Project

@@ -1,11 +1,15 @@
 .project {
-    max-width: 375px;
+    min-width: 375px;
     max-height: 300px;
-    background-color: white;
+    background-color: #14131a;
     cursor: pointer;
     transition: .3s;
     overflow: hidden;
     border-radius: .5rem;
+}
+a {
+    text-decoration: none;
+    color: #acabb4;
 }
 
 .project:hover {
@@ -13,22 +17,25 @@
 }
 
 .details {
+    text-align: center;
     padding: 15px;
 }
 
 .project-name {
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 2px;
+    text-transform: capitalize;
 }
 
 .project-stack {
-    font-size: 15px;
+    font-size: .9rem;
 
 }
 
 .img img {
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
+    filter: blur(5px) !important;
 }
