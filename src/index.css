@@ -13,18 +13,11 @@ body {
   height: 120vh;
 }
 
-.container {
-  display: flex;
-  gap: 1rem;
-  margin: 0 1rem;
-  overflow: hidden;
-  border-radius: 0.5rem;
-}
 
 main {
-  width: 100%;
   margin-top: 4.7rem;
   margin-left: 16rem;
+  margin-right: .5rem;
 }
 
 @media screen and (max-width: 1025px) {
