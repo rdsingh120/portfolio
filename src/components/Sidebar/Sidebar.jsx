@@ -1,4 +1,4 @@
-import './SideBar.css'
+import './Sidebar.css'
 import { FiLinkedin } from 'react-icons/fi'
 import { FiGithub } from 'react-icons/fi'
 import { SiLeetcode } from 'react-icons/si'
