@@ -14,6 +14,10 @@
   transform: translate(0, -5px);
 }
 
+.name {
+  text-transform: capitalize;
+}
+
 .resume {
   color: white;
 }

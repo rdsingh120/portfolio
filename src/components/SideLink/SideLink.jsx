@@ -1,9 +1,9 @@
 import './SideLink.css'
-const SideLink = ({ link, icon, text }) => {
+const SideLink = ({ link, icon, name }) => {
   return (
-    <a className="side-link" href={link} target='_blank' >
-      {icon}
-      {text}
+    <a className="side-link" href={link} target="_blank">
+      <span className={name}>{icon}</span>
+      <span className='name'>{name}</span>
     </a>
   )
 }
