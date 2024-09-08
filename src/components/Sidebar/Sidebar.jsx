@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <div className="side-bar">
       <SideLink
-        link="https://drive.google.com/file/d/1ZKaaYRsJUxWE-wsaqS_e0e_rhyYDJKln/view"
+        link="https://drive.google.com/file/d/1NNu3_HN1Aw3fcQqYETR2Zbi5aVwh2Ilp/view?usp=sharing"
         icon={<SiReaddotcv className="resume" />}
         text="Resume"
       />
