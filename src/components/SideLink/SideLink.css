@@ -16,6 +16,7 @@
 
 .name {
   text-transform: capitalize;
+  letter-spacing: 1px;
 }
 
 .resume {
