@@ -10,7 +10,7 @@ const Projects = () => {
         <Title title="projects" />
         <div className="projects">
           {projects.map((project) => (
-            <Project {...project} />
+            <Project key={project.name} {...project} />
           ))}
         </div>
       </div>
