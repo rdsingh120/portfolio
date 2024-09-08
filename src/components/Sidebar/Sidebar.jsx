@@ -1,14 +1,8 @@
 import './Sidebar.css'
-import { sideLinks } from './data'
-import SideLink from '../SideLink/SideLink'
+import SideLinks from '../SideLinks/SideLinks'
+
 
 const Sidebar = () => {
-  return (
-    <div className="side-bar">
-      {sideLinks.map(link => (
-        <SideLink key={link.name} {...link} />
-      ))}
-    </div>
-  )
+  return <div className="side-bar"><SideLinks /></div>
 }
 export default Sidebar
