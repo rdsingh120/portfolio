@@ -1,0 +1,34 @@
+.project {
+    max-width: 375px;
+    max-height: 300px;
+    background-color: white;
+    cursor: pointer;
+    transition: .3s;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.project:hover {
+    transform: scale(1.04);
+}
+
+.details {
+    padding: 15px;
+}
+
+.project-name {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.project-stack {
+    font-size: 15px;
+
+}
+
+.img img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
