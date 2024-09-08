@@ -31,6 +31,9 @@ main {
   .side-bar {
     display: none;
   }
+  main {
+    margin-left: .5rem;
+  }
   .ham-btn {
     display: flex;
   }
