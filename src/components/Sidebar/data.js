@@ -38,7 +38,7 @@ export const sideLinks = [
     icon: GrInstagram(),
   },
   {
-    name: 'stack',
+    name: 'stackOverflow',
     link: 'https://stackoverflow.com/users/17151480/ripu-daman',
     icon: ImStackoverflow(),
   },
