@@ -1,8 +1,15 @@
+import { TfiClose } from 'react-icons/tfi'
 import './Modal.css'
-const Modal = () => {
+const Modal = ({func, showModal}) => {
+  
   return (
-    <div className="container">
-      <div className="">Modal</div>
+    <div className={showModal ? 'modal-container' : 'hide'}>
+      <div id="overlay"></div>
+      <div className="modal">
+        <button className="close-btn" onClick={func}>
+          <TfiClose />
+        </button>
+      </div>
     </div>
   )
 }

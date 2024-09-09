@@ -7,17 +7,6 @@
   flex-direction: column;
   position: fixed;
   height: 90vh;
-  margin-left: 0.5rem;
+  margin-left: .5rem;
 }
 
-@media screen and (max-width: 1025px) {
-  .side-bar {
-    display: none;
-  }
-  main {
-    margin-left: 0.5rem;
-  }
-  .ham-btn {
-    display: flex;
-  }
-}
