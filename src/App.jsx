@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import Projects from './components/Projects/Projects'
 import Sidebar from './components/Sidebar/Sidebar'
 import Menu from './components/Menu/Menu'
+import Skills from './components/Skills/Skills'
 
 function App() {
   const [showModal, setShowModal] = useState(false)
@@ -26,6 +27,7 @@ function App() {
         <main>
           <Banner />
           <Projects />
+          <Skills />
         </main>
       </div>
     </>

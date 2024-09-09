@@ -6,7 +6,7 @@ import toast, { Toaster } from 'react-hot-toast'
 
 const ContactForm = () => {
   const form = useRef()
-  const notify = () => toast('Message Sent')
+  const notify = () => toast('Message Sent ✅')
   const serviceId = import.meta.env.VITE_EMAIL_SERVICE_ID
   const templateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID
   const publicKey = import.meta.env.VITE_EMAIL_PUBLIC_KEY
