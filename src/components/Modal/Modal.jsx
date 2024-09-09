@@ -4,7 +4,7 @@ import ContactForm from '../ContactForm/ContactForm'
 const Modal = ({ func, showModal }) => {
   return (
     <div className={showModal ? 'modal-container' : 'hide'}>
-      <div id="overlay"></div>
+      <div className="overlay"></div>
       <div className="modal">
         <button className="close-btn" onClick={func}>
           <TfiClose />

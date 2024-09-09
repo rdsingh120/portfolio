@@ -4,13 +4,23 @@ import Modal from './components/Modal/Modal'
 import Navbar from './components/Navbar/Navbar'
 import Projects from './components/Projects/Projects'
 import Sidebar from './components/Sidebar/Sidebar'
+import Menu from './components/Menu/Menu'
 
 function App() {
   const [showModal, setShowModal] = useState(false)
+  const [showMenu, setShowMenu] = useState(false)
   return (
     <>
-      <Navbar func={() => setShowModal(!showModal)} />
+      <Navbar
+        contactForm={() => setShowModal(!showModal)}
+        sideMenu={() => setShowMenu(true)}
+      />
       <Sidebar />
+      <Menu
+        className={showMenu ? 'menu' : 'menu hide-menu'}
+        func={() => setShowMenu(false)}
+        overlay2={showMenu ? 'overlay2' : ''}
+      />
       <Modal showModal={showModal} func={() => setShowModal(!showModal)} />
       <div className="container">
         <main>
