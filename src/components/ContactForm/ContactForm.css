@@ -51,6 +51,12 @@ textarea:focus {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1025px) {
-  
+.title {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .title {
+    font-size: 1.7rem;
+  }
 }
