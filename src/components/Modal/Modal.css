@@ -1,0 +1,11 @@
+
+
+.modal {
+  z-index: 25;
+  height: 300px;
+  width: 300px;
+  background-color: rgb(57, 63, 68);
+  position: fixed;
+  display: grid;
+  place-items: center;
+}

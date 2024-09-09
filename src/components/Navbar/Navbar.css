@@ -6,7 +6,7 @@
   padding: 1rem;
   background-color: #14131a;
   position: fixed;
-  z-index: 200;
+  z-index: 5;
   width: 100%;
   top: 0;
 }

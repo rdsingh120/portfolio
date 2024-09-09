@@ -7,7 +7,12 @@ const Navbar = () => {
     <div className="navbar">
       <span className="logo">:Hello World</span>
       <div className="buttons">
-        <button className="contactMe">
+        <button
+          className="contactMe"
+          onClick={() => {
+            console.log('Hello')
+          }}
+        >
           Contact Me <FaUserAstronaut />
         </button>
         <button className="ham-btn">
