@@ -2,13 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #1fb81f;
+  color: #43b343;
   padding: 1rem;
   background-color: #14131a;
   position: fixed;
   z-index: 5;
   width: 100%;
   top: 0;
+}
+
+.logo-container {
+  display: flex;
+  gap: .4rem;
+  margin-left: 1rem;
 }
 
 .buttons {
@@ -50,3 +56,4 @@
 .ham-btn:hover {
   rotate: 180deg;
 }
+
