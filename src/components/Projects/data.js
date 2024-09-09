@@ -21,4 +21,10 @@ export const projects = [
     link: 'http://studentweb.cencol.ca/rsin1191/term-project/index.html',
     img: watches,
   },
+  {
+    name: 'React JS Mini Projects',
+    desc: 'React JS | CSS',
+    link: '',
+    img: 'https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg',
+  },
 ]
