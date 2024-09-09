@@ -1,7 +1,7 @@
 import { TfiClose } from 'react-icons/tfi'
 import './Modal.css'
-const Modal = ({func, showModal}) => {
-  
+import ContactForm from '../ContactForm/ContactForm'
+const Modal = ({ func, showModal }) => {
   return (
     <div className={showModal ? 'modal-container' : 'hide'}>
       <div id="overlay"></div>
@@ -9,6 +9,7 @@ const Modal = ({func, showModal}) => {
         <button className="close-btn" onClick={func}>
           <TfiClose />
         </button>
+        <ContactForm />
       </div>
     </div>
   )

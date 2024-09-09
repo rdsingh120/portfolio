@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  background-color: rgba(0, 0, 0, 0.95); /* Black background with opacity */
   z-index: 20; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 }
@@ -18,25 +18,26 @@
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
-
 .modal {
-  margin-top: 10rem;
+  margin-top: 7rem;
   height: 70vh;
   width: 90vw;
-  max-width: 600px;
-  background-color: white;
+  max-width: 700px;
+  background-color: transparent;
   z-index: 250;
   position: fixed;
 }
 
 .close-btn {
-    background-color: #fff;
-    border: none;
-    font-size: 2rem;
-    float: right;
-    margin: 1rem;
-    cursor: pointer;
+  background-color: transparent;
+  color: #acabb4;
+  border: none;
+  font-size: 2rem;
+  float: right;
+  margin: 1rem;
+  cursor: pointer;
 }
+
