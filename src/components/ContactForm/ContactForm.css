@@ -1,9 +1,9 @@
 form {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   margin-top: 2rem;
-  margin-left: 3.5rem;
+  margin-left: 4rem;
 }
 
 input {
@@ -42,7 +42,7 @@ textarea:focus {
 
 .form-row {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .submit-btn {
