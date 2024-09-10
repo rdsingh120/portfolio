@@ -28,7 +28,7 @@
   background-color: transparent;
   z-index: 35;
   position: fixed;
-  background-color: #14131a;
+  background-color: var(--primary-dark-1);
   border-radius: .5rem;
   padding-bottom: 2rem;
 }

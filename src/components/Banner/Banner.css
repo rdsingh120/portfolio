@@ -1,24 +1,30 @@
 .banner {
-  display: flex;
-  align-items: center;
   height: 175px;
   overflow: hidden;
   border-radius: 0.5rem;
-  background-image: url('./assets/banner.jpg');
-  gap: 2rem;
+  position: relative;
+}
+.banner img {
+  filter: blur(12px) !important;
+  margin: -5px -10px -10px -5px;
 }
 
+.me {
+  position: absolute;
+  top: 108px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 .photo {
-  height: 120px;
-  width: 120px;
+  height: 125px;
+  width: 125px;
   border-radius: 50%;
   margin-left: 2rem;
   overflow: hidden;
 }
 
 .photo img {
-  height: 120px;
-  width: 120px;
+  width: 100%;
   object-fit: cover;
 }
-

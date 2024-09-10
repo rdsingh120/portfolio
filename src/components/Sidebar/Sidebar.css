@@ -1,5 +1,5 @@
 .side-bar {
-  background-color: #1c1b23;
+  background-color: var(--primary-dark-2);
   min-width: 250px;
   border-radius: 0.5rem;
   padding: 2rem 0;

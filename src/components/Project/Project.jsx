@@ -1,8 +1,8 @@
 import './Project.css'
 const Project = ({ img, name, desc, link }) => {
   return (
-    <a href={link} target='_blank' className="project">
-      <div className="img">
+    <a href={link} target="_blank" className="project">
+      <div className="img-container">
         <img src={img} alt="" />
       </div>
       <div className="details">
