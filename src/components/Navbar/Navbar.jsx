@@ -4,10 +4,10 @@ import { MdOutlineLightMode, MdOutlineDarkMode } from 'react-icons/md'
 import { FaCircle } from 'react-icons/fa6'
 
 import './Navbar.css'
-import { useState } from 'react'
 
-const Navbar = ({ contactForm, sideMenu }) => {
-  const [darkMode, setDarkMode] = useState(true)
+
+const Navbar = ({ contactForm, sideMenu, darkMode, setDarkMode }) => {
+  
   return (
     <div className="navbar">
       <div className="logo-container">
@@ -22,7 +22,7 @@ const Navbar = ({ contactForm, sideMenu }) => {
         <button className="contactMe" onClick={contactForm}>
           Contact Me <FaUserAstronaut />
         </button>
-        {/* <button className="color-mode" onClick={() => setDarkMode(!darkMode)}>
+        {/* <button className="color-mode" onClick={setDarkMode}>
           {darkMode ? <MdOutlineLightMode /> : <MdOutlineDarkMode />}
         </button> */}
         <button className="ham-btn" onClick={sideMenu}>

@@ -1,8 +1,15 @@
+import mernApp from './assets/mern-crud-app.png'
 import movieSearch from './assets/movieSearch.png'
 import vanilla from './assets/vanilla.png'
 import watches from './assets/watches.png'
 
 export const projects = [
+  {
+    name: 'MERN Stack CRUD App',
+    desc: 'React JS | Node JS | Express JS | MongoDB',
+    link: 'https://crud-app-bfg1.onrender.com/',
+    img: mernApp,
+  },
   {
     name: 'movie search',
     desc: 'React JS | OMDB API | CSS',
@@ -20,11 +27,5 @@ export const projects = [
     desc: 'HTML | CSS',
     link: 'http://studentweb.cencol.ca/rsin1191/term-project/index.html',
     img: watches,
-  },
-  {
-    name: 'React JS Mini Projects',
-    desc: 'React JS | CSS',
-    link: '',
-    img: 'https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg',
   },
 ]

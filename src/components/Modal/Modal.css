@@ -29,8 +29,10 @@
   z-index: 35;
   position: fixed;
   background-color: var(--primary-dark-1);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding-bottom: 2rem;
+  max-height: 80vh;
+  overflow: auto;
 }
 
 .close-btn {
@@ -39,6 +41,6 @@
   border: none;
   font-size: 2rem;
   float: right;
-  margin: .7rem;
+  margin: 0.7rem;
   cursor: pointer;
 }
