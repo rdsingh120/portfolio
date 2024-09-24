@@ -9,7 +9,7 @@ import { ImStackoverflow } from 'react-icons/im'
 export const sideLinks = [
   {
     name: 'resume',
-    link: 'https://drive.google.com/file/d/1NNu3_HN1Aw3fcQqYETR2Zbi5aVwh2Ilp/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/14JPvWKyw6PlN3ex2WQZYCYy6UqMz5rsg/view?usp=sharing',
     icon: SiReaddotcv(),
   },
   {
