@@ -5,16 +5,16 @@ import libraryApp from './assets/library-app.png'
 
 export const projects = [
   {
+    name: 'Books App',
+    desc: 'React JS | Node JS | Express JS | MongoDB',
+    link: 'https://booksapp-5090.onrender.com/',
+    img: libraryApp,
+  },
+  {
     name: 'MERN Stack CRUD App',
     desc: 'React JS | Node JS | Express JS | MongoDB',
     link: 'https://crud-app-bfg1.onrender.com/',
     img: mernApp,
-  },
-  {
-    name: 'Library App',
-    desc: 'React JS | Node JS | Express JS | MongoDB',
-    link: 'https://library-app-bhn5.onrender.com/',
-    img: libraryApp,
   },
   {
     name: 'movie search',
